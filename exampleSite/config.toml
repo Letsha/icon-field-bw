@@ -1,10 +1,10 @@
-baseURL = "https://examplesite.com"
+baseURL = "https://iconfieldbw.com"
 disableLanguages = []
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
 theme = "meghna-hugo"
-title = "Meghna"
+title = "Iconfield"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
@@ -20,24 +20,37 @@ languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
 [[menu.main]]
-name = "home"
+URL = "about"
+name = "about"
 weight = 1
-[[menu.main]]
-URL = "contact"
-name = "contact"
-weight = 4
 [[menu.main]]
 URL = "services"
 name = "services"
+weight = 2
+[[menu.main]]
+URL = "portfolio"
+name = "portfolio"
 weight = 3
 [[menu.main]]
-URL = "about"
-name = "about"
-weight = 2
+URL = "team"
+name = "team"
+weight = 4
+[[menu.main]]
+URL = "pricing"
+name = "pricing"
+weight = 5
+[[menu.main]]
+URL = "blog"
+name = "blog"
+weight = 6
+[[menu.main]]
+URL = "contact"
+name = "contact"
+weight = 7
 [[menu.static]]
 URL = "https://themefisher.com/"
-name = "iconfield"
-weight = 1
+name = "themefisher"
+weight = 8
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax HTML5 Template"
