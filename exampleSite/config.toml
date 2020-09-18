@@ -1,5 +1,5 @@
 baseURL = "https://iconfieldbw.com"
-disableLanguages = []
+disableLanguages = ["Fr"]
 disqusShortname = ""
 paginate = "6"
 summaryLength = "15"
@@ -19,18 +19,13 @@ home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
-[[menu.main]]
-URL = "contact"
-name = "contact"
-weight = 4
-[[menu.main]]
-URL = "about"
-name = "about"
-weight = 2
-[[menu.static]]
-URL = "https://themefisher.com/"
-name = "iconfield"
+[menu.main]
+name = "home"
 weight = 1
+[[menu.static]]
+URL = ""
+name = "letsha ramokate"
+weight = 8
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax HTML5 Template"
