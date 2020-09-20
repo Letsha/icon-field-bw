@@ -29,5 +29,7 @@ service:
       facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
 menu:
   main:
-    name: services
-    weight: 3
+  - - name
+    - services
+  - - weight
+    - 3
