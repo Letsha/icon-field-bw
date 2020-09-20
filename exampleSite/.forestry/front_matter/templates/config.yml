@@ -11,12 +11,26 @@ fields:
 - type: text
   name: disqusShortname
   label: disqusShortname
-- type: text
-  name: paginate
+- name: paginate
+  type: number
   label: paginate
-- type: text
-  name: summaryLength
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: summarylength
+  type: number
   label: summaryLength
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: text
   name: theme
   label: theme
