@@ -19,13 +19,18 @@ home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
-[menu.main]
-name = "home"
-weight = 1
+[[menu.main]]
+URL = "contact"
+name = "contact"
+weight = 4
+[[menu.main]]
+URL = "about"
+name = "about"
+weight = 2
 [[menu.static]]
-URL = ""
-name = "letsha ramokate"
-weight = 8
+URL = "https://themefisher.com/"
+name = "iconfield"
+weight = 1
 [params]
 author = "Themefisher"
 description = "Responsive Multipurpose Parallax HTML5 Template"
